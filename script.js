@@ -38,29 +38,3 @@ const data = getData(
     document.getElementsByTagName("table")[0].innerHTML += buatTabel;
   }
 );
-
-// "<tr>" +
-// //membuat penomoran
-// "<td>" +
-// (a + 1) +
-// "</td>" +
-// "<td>" +
-// data[a]["name"] +
-// "</td>" +
-// "<td>" +
-// data[a]["username"] +
-// "</td>" +
-// "<td>" +
-// data[a]["email"] +
-// "</td>" +
-// "<td>" +
-// data[a]["address"]["street"] +
-// ", " +
-// data[a]["address"]["suite"] +
-// ", " +
-// data[a]["address"]["city"] +
-// "</td>" +
-// "<td>" +
-// data[a]["company"]["name"] +
-// "</td>" +
-// "<tr/>";
